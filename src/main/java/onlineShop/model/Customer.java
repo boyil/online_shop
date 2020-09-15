@@ -1,5 +1,7 @@
 package onlineShop.model;
 
+import org.hibernate.annotations.JoinColumnOrFormula;
+
 import java.io.Serializable;
 
 import javax.persistence.CascadeType;
@@ -24,6 +26,18 @@ public class Customer implements Serializable {
     private String firstName;
     private String lastName;
     private String customerPhone;
+
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JoinColumn(unique = true)
+    private ShippingAddress shippingAddress;
+
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JoinColumn(unique = true)
+    private BillingAddress billingAddress;
+
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JoinColumn(unique = true)
+    private User user;
 
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(unique = true)
@@ -59,6 +73,30 @@ public class Customer implements Serializable {
 
     public void setCustomerPhone(String customerPhone) {
         this.customerPhone = customerPhone;
+    }
+
+    public ShippingAddress getShippingAddress() {
+        return shippingAddress;
+    }
+
+    public void setShippingAddress(ShippingAddress shippingAddress) {
+        this.shippingAddress = shippingAddress;
+    }
+
+    public BillingAddress getBillingAddress() {
+        return billingAddress;
+    }
+
+    public void setBillingAddress(BillingAddress billingAddress) {
+        this.billingAddress = billingAddress;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 
     public Cart getCart() {
