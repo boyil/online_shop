@@ -1,0 +1,15 @@
+/Users/boyil/IdeaProjects/onlineShop/src/main/java/onlineShop/ApplicationConfig.java
+/Users/boyil/IdeaProjects/onlineShop/src/main/java/onlineShop/model/Customer.java
+/Users/boyil/IdeaProjects/onlineShop/src/main/java/onlineShop/model/CartItem.java
+/Users/boyil/IdeaProjects/onlineShop/src/main/java/onlineShop/log/Logger.java
+/Users/boyil/IdeaProjects/onlineShop/src/main/java/onlineShop/Application.java
+/Users/boyil/IdeaProjects/onlineShop/src/main/java/onlineShop/model/SalesOrder.java
+/Users/boyil/IdeaProjects/onlineShop/src/main/java/onlineShop/model/ShippingAddress.java
+/Users/boyil/IdeaProjects/onlineShop/src/main/java/onlineShop/controller/HomePageController.java
+/Users/boyil/IdeaProjects/onlineShop/src/main/java/onlineShop/log/ServerLogger.java
+/Users/boyil/IdeaProjects/onlineShop/src/main/java/onlineShop/model/Cart.java
+/Users/boyil/IdeaProjects/onlineShop/src/main/java/onlineShop/model/Authorities.java
+/Users/boyil/IdeaProjects/onlineShop/src/main/java/onlineShop/model/BillingAddress.java
+/Users/boyil/IdeaProjects/onlineShop/src/main/java/onlineShop/model/Product.java
+/Users/boyil/IdeaProjects/onlineShop/src/main/java/onlineShop/model/User.java
+/Users/boyil/IdeaProjects/onlineShop/src/main/java/onlineShop/log/PaymentAction.java
